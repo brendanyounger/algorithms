@@ -1,5 +1,5 @@
 (ns algorithms.llvm.api
-  (import [com.sun.jna Function Pointer]))
+  (:import [com.sun.jna Function Pointer]))
 
 (System/setProperty "jna.platform.library.path" "/usr/local/lib:/usr/lib")
 
